@@ -1,0 +1,82 @@
+<html>
+<head>
+    <title>Create Account</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(to right, #d4a5d4, #2e2e2e);
+            font-family: 'Arial', sans-serif;
+        }
+        .container {
+            background-color: #2c2c54;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            position: relative;
+            width: 400px;
+        }
+        .container h2 {
+            color: #ff6f61;
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+        .container input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+            background-color: #3d3d5c;
+            color: #b3b3cc;
+            font-size: 16px;
+        }
+        .container .buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .container .buttons button {
+            width: 48%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .container .buttons .register {
+            background: linear-gradient(135deg, #7f00ff, #e100ff);
+            color: white;
+        }
+        .container .buttons .reset {
+            background: linear-gradient(135deg, #ff6f61, #ff9068);
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Create Account</h2>
+        <input type="text" placeholder="Your Name">
+        <input type="text" placeholder="Login">
+        <input type="password" placeholder="Password">
+        <input type="email" placeholder="Email">
+        <input type="tel" placeholder="Phone">
+        <input type="text" placeholder="Country">
+        <div class="buttons">
+            <a href="login.html">
+            <button class="register">Register</button>
+            </a>
+            <a href="login.html">
+            <button class="reset">Log In</button>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
